@@ -1,0 +1,33 @@
+h2{
+    padding-top: 100px;
+    font-size:250%;
+    font-weight: 600;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'poppins',Arial, Helvetica, sans-serif;
+
+}
+#contact{
+    height:100vh;
+    
+}
+
+.contact-section {
+    padding-left: 25px;
+    padding-top: 10px;
+    position :relative;
+}
+
+
+.contact-section p {
+    font-size: 24px;
+    margin: 10px 0;
+    font-family:'poppins',Arial, Helvetica, sans-serif ;
+}
+
+.contact-section .contact-info {
+    color:  rgb(81, 34, 81); 
+    font-weight: bold;
+    font-family:'poppins',Arial, Helvetica, sans-serif ;
+}

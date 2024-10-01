@@ -1,0 +1,13 @@
+.socials {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    size:40px; 
+    z-index: 1000;
+}
+.socials a{
+    color:rgb(81, 34, 81);
+ }

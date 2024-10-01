@@ -1,0 +1,53 @@
+.header h1{
+    padding-left: 25px;
+    position :fixed;
+    z-index: 1000;
+    font-family:'poppins',Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+#name{
+    color:rgb(66, 12, 66);
+}
+.navbar {
+    width: 100%;
+    background-color: rgba(146, 145, 145);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    /* padding: 10px 0px; */
+    z-index: 999;
+    transition: background-color 0.3s ease-in-out;
+}
+/* Navbar items */
+.navbar ul {
+    font-family:'poppins',Arial, Helvetica, sans-serif;
+    color:rgb(66, 12, 66);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.navbar ul li {
+    font-size: 18px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(66, 12, 66);
+    padding: 10px 10px;
+    display: block;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+.navbar ul li a:hover {
+    background-color: rgb(81, 34, 81); 
+    transform: scale(1.1);
+    box-shadow: 1px 1px 2px 2px  rgb(45, 4, 45);
+    color:white;
+}
+  .navbar ul li a:active {
+    background-color:black;
+}
+

@@ -1,0 +1,16 @@
+.footer{
+    text-align:center;
+    background-color: rgb(81, 34, 81); 
+    padding: 2px;
+    margin:0;
+    width:100vw;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #ddd;
+    z-index: 999;
+}
+
+.footer-content p {
+    margin: 0;
+    color:white;
+  }

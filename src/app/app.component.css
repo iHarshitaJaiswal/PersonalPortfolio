@@ -1,0 +1,50 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    /* cursor: none; Hide the default cursor */
+    top: 0;
+    left: 0;
+    position:absolute;
+    z-index: 998;
+}
+/* *{
+  cursor:none;
+} */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; / */
+    max-width: 100%;
+    
+  }
+  
+  .content {
+    flex: 1; 
+  }
+  
+  .footer {
+
+    bottom:0;
+  }
+
+  /* cursor */
+.cursor, .cursor-trail {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1000;
+  
+}
+.cursor {
+  background-color: rgb(86, 17, 86);
+}
+.cursor-trail {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(86, 17, 86);
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  opacity: 1;
+}
